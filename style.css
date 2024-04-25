@@ -69,12 +69,13 @@ h1 {
 }
 
 .sign-up {
-    background-color: #384fe3;
+    background-color: #3882F6;
     color: #E5E7EB;
     font-weight: 900;
     padding: 5px 20px;
     border-radius: 5px;
     border: 0;
+    border: 2px solid #E5E7EB;
 }
 
 .card-wrapper {
@@ -131,4 +132,49 @@ h2 {
 .quote-author {
     font-weight: 600;
     align-self: flex-end;
+}
+
+.call-to-action-wrapper {
+    margin: 100px;
+}
+
+.call-to-action-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.text-and-button {
+    display: flex;
+    gap:  40px;
+}
+
+h3 {
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+}
+
+.call-to-action-text {
+    color:#E5E7EB;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-wrapper {
+    background-color: #1F2937;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    font-size: 18px;
+    color: #E5E7EB;
 }
